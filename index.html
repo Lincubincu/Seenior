@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ChatGPT igapäevaelus – Seenioritele</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>ChatGPT juhend</strong></li>
+    </ul>
+    <ul>
+      <li><a href="#kasu">Milleks kasulik?</a></li>
+      <li><a href="#kuidas">Kuidas alustada?</a></li>
+      <li><a href="#registreeru" role="button">Liitu uudiskirjaga</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <div class="grid">
+      <section>
+        <hgroup>
+          <h2>Lihtne teejuht ChatGPT kasutamiseks</h2>
+          <h3>Igapäevased tegevused, mida saad teha arvutis või telefonis</h3>
+        </hgroup>
+        <p>ChatGPT on abiline, kellelt saab küsida küsimusi eesti keeles. See on justkui tark sõber, kes aitab sul
+          otsida infot, kirjutada kirju, koostada retsepte või isegi meenutada asju.</p>
+
+        <figure>
+          <img src="proua.png" alt="Seenior kasutab ChatGPT-d lastega" />
+          <figcaption>Vanaema lastega uurimas ChatGPT-d</figcaption>
+        </figure>
+
+        <h3 id="kasu">Milleks on ChatGPT kasulik?</h3>
+        <p>
+          • Retseptide küsimine<br />
+          • Ilmateate vaatamine<br />
+          • Arvamus küsimine, näiteks: "Milline telefon on hea seeniorile?"<br />
+          • Päevaplaani tegemine või meenutuste salvestamine
+        </p>
+
+        <h3 id="kuidas">Kuidas alustada?</h3>
+        <p>
+          1. Ava oma veebibrauser (näiteks Chrome).<br />
+          2. Kirjuta aadressiribale: chat.openai.com<br />
+          3. Logi sisse või loo tasuta konto.<br />
+          4. Alusta vestlust – näiteks kirjuta: "Palun lihtne supi retsept."
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <section aria-label="Subscribe example">
+    <div class="container">
+      <article>
+        <hgroup>
+          <h2 id="registreeru">Soovid rohkem nippe?</h2>
+          <h3>Liitu meie uudiskirjaga</h3>
+        </hgroup>
+        <form class="grid">
+          <input type="text" id="firstname" name="firstname" placeholder="Eesnimi" aria-label="Eesnimi" required />
+          <input type="email" id="email" name="email" placeholder="Sinu e-post" aria-label="E-posti aadress" required />
+          <button type="submit" onclick="event.preventDefault()">Liitu</button>
+        </form>
+      </article>
+    </div>
+  </section>
+
+  <footer class="container">
+    <small><a href="#">Privaatsus</a> • <a href="#">Kontakt</a></small>
+  </footer>
+</body>
+
+</html>
